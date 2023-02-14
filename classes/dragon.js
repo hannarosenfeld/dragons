@@ -13,10 +13,7 @@ class Dragon {
   }
 }
 
-let test = new Dragon("puff", "pink");
-
-console.log(test)
-console.log(Dragon.getDragons([test]))
+module.exports = Dragon;
 /****************************************************************************/
 /******************* DO NOT EDIT CODE BELOW THIS LINE ***********************/
 
